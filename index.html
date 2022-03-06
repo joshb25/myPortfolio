@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Jr. WebDev</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./index.js" defer></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+        <h1 class="portfolio-main-title">The Jr. WebDev</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <div class="menu-btn"><img src="./images/arrow2.png" class="menu-arrow" alt="toggle menu"/></div>
+            </ul>
+        </nav>
+        
+        <div class="social">
+            <a href="https://github.com/joshb25" target="_blank"><img src="./images/github.png" alt="github" class="social-img git"/></a>
+            <a href="https://www.linkedin.com/in/joshua-john-banas-220a89229/" target="_blank"><img src="./images/linkedin02.png" alt="linkedin" class="social-img" /></a>
+            <a href="https://twitter.com/hi__josh" target="_blank"><img src="./images/twitter2.png" alt="twitter" class="social-img" /></a>
+        </div>
+        </header>
+
+        <main>
+            <section class="grid-section introduction">
+                <p>Hi, My name is <span class="name">Joshua Bañas</span>.<br/>
+                    I am a  Developer based in Texas. I'm quietly confident, and naturally curious. Always eager to learn.<br/> 
+                </p>
+            </section>
+
+            <img src="./images/developer.png" class="dev-img"/>
+
+            <section class="grid-section about" id="about">
+                <h1>About Me</h1>
+                <h2>I am a Jr. Front-end Developer who is always willing to learn new things no matter the challenge.</h2>
+                <p>I’m naturally inquisitive and enjoy figuring out how things work. I started my journey about a year and a half ago,
+                    learning front-end development through codecademy, freedcodecamp, and scrimba. Although I am still quiet new to web development, it does not deter me from learning new things and tackling challenging projects.</p>
+                <p>I've built projects using HTML, CSS, Javascript and React. Although I am still freshed from learning React.js, I have become accustomed to utilizing the library.<br/> My goal is at some point learn back-end as well to fully transition myself to a full stack developer.</p>
+                <p>Before my interest in web development, I was an undergrad majoring in Modern Languages at the University of Texas at San antonio. It was towards my senior year that I became interested in coding. As a matter of fact, Java was the first programming language I learned before I transitioned to front-end development.</p>
+
+                <h3>Skills</h3>
+                <div class="skills">
+                    <img src="./images/html.png" alt="html" class="skill"/>
+                    <img src="./images/css.png" alt="css" class="skill" />
+                    <img src="./images/javascript.png" alt="javascript" class="skill" />
+                    <img src="./images/react-js.png" alt="react.js" class="skill" />
+                </div>
+
+            </section>
+            <img src="./images/information.png" class="info-img"/>
+
+            <section class="grid-section projects" id="projects">
+                <h1>Projects</h1>
+                <div class="project-container">
+                <div class="project">
+                    <img src="./images/vaultflix.png" class="snapshot"/>
+                    <div class="links">
+                        <h2 class="link-title">Vaultflix(React.js)</h2>
+                        <p class="description">A basic TV/Movie database using the TMDB API. This is my first React.js project.</p>
+                        <a href="https://joshb25.github.io/vaultflix/" class="project-link" target="_blank">View Website</a>
+                        <a href="https://github.com/joshb25/vaultflix" class="project-link" target="_blank">Github Repo</a>
+                    </div>
+                    
+                </div>
+                <div class="project">
+                   <img src="./images/wilson.png" class="snapshot"/>
+                    <div class="links">
+                    <h2 class="link-title">Wilson's Forecast(React.js)</h2>
+                    <p class="description">A simple weather forecast using the Weather API. Background image changes depending on the weather. The user is able to switch between fahrenheit and celsius.</p>
+                    <a href="https://joshb25.github.io/wilson/" class="project-link" target="_blank">View Website</a>
+                    <a href="https://github.com/joshb25/wilson" class="project-link" target="_blank">Github Repo</a>
+                    </div>
+                   
+                </div>
+                <div class="project">
+                    <img src="./images/snakegame.png" class="snapshot"/>
+                    <div class="links">
+                    <h2 class="link-title">TheSnakeGame(Vanilla js)</h2>
+                    <p class="description">A simple but retro vanilla js snake game.</p>
+                    <a href="https://joshb25.github.io/theSnakeGame/" class="project-link" target="_blank">View Website</a>
+                    <a href="https://github.com/joshb25/theSnakeGame" class="project-link" target="_blank">Github Repo</a>
+                    </div>
+                    
+                </div>
+                
+                <!-- <div class="project"><a href=""><img src="" class="snapshot"/></a></div>
+                <div class="project"><a href=""><img src="" class="snapshot"/></a></div>
+                <div class="project"><a href=""><img src="" class="snapshot"/></a></div> -->
+                </div>
+            </section>
+            <img src="./images/web-development.png" class="project-img" />
+
+            <section class="grid-section experience" id="experience">
+                <h1 class="exp-title">Nothing yet!</h1>
+                
+                <div class="loader"></div>
+            </section>
+
+            <img src="./images/experience.png" class="exp-img"/>
+        </main>
+
+        <footer id="contact">
+            <h1>Contact</h1>
+            <form action="mailto:jbanas1896@gmail.com" method="POST" enctype=”multipart/form-data” name=”EmailForm”>
+                <span class="contact-name">Name:</span><br>
+                <input type=”text” size=”19″ name=”ContactName” class="input"><br><br>
+                <span class="message">Message:</span><br> <textarea name=”ContactCommentt” rows=”7″ cols=”25″ class="text">
+                </textarea><br><br> <input type="submit" value="Send" class="submit">
+            </form>
+
+
+
+        </footer>
+
+
+
+    </body>
+</html>
