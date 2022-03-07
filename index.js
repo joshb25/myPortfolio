@@ -7,6 +7,23 @@ const projects=document.querySelectorAll(".project")
 const snapShot=document.querySelector(".snapshot")
 const links=document.querySelector(".links")
 const projectLink=document.querySelectorAll(".project-link")
+const exp=document.querySelector(".exp-title")
+
+
+const loadText=()=>{
+    setTimeout(() => {
+        exp.textContent= "Experience..."
+        setTimeout(() => {
+            exp.textContent= "Checking..."
+            setTimeout(() => {
+                exp.textContent= "Nothing yet!"
+            }, 2000);
+        }, 4000);
+    }, 3000);
+}
+    const interval=setInterval(loadText,7000)
+
+
 
 
 

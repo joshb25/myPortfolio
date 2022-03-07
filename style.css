@@ -205,9 +205,6 @@ main {
   font-weight: var(--fs-bld);
 }
 
-/* .introduction p {
-} */
-
 .dev-img {
   display: block;
   margin: auto auto;
@@ -215,28 +212,6 @@ main {
   width: 60%;
   height: 50%;
 }
-
-/* .dev-img:hover {
-  animation: dev 1.5s linear 1;
-}
-
-@keyframes dev {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(20deg);
-  }
-
-  50% {
-    transform: rotate(0deg);
-  }
-
-  75% {
-    transform: rotate(-20deg);
-  }
-} */
 
 .about {
   grid-column: 2 / span 3;
@@ -521,6 +496,17 @@ input[type="submit"] {
 
   .grid-section {
     margin: 1em;
+  }
+
+  .introduction {
+    margin: 0.4em;
+  }
+
+  .dev-img,
+  .info-img,
+  .project-img,
+  .exp-img {
+    display: none;
   }
 
   .about p {
