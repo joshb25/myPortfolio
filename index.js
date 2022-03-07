@@ -17,11 +17,14 @@ const loadText=()=>{
             exp.textContent= "Checking..."
             setTimeout(() => {
                 exp.textContent= "Nothing yet!"
-            }, 2000);
-        }, 4000);
-    }, 3000);
+            }, 10000);
+        }, 9000);
+    }, 8000);
 }
-    const interval=setInterval(loadText,7000)
+    
+
+    loadText()
+
 
 
 
