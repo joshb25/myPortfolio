@@ -554,8 +554,14 @@ input[type="submit"] {
   .experience,
   footer {
     font-size: var(--fs-h3);
-    height: 400px;
+    height: 300px;
     overflow: scroll;
+    margin-bottom: 0;
+  }
+
+  .introduction {
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .project {
@@ -612,6 +618,10 @@ input[type="submit"] {
   .text {
     margin: auto;
     width: 70%;
+  }
+
+  .text{
+    padding: 1em;
   }
 
   .submit {
